@@ -1,0 +1,3 @@
+This is a code book sumbission for a Graded Quiz on Classification Module of the Hamoye Internship, Data Science Track.
+Data for this project can be found at https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data
+Split the data into an 80-20 train-test split with a random state of “1”. Use the standard scaler to transform the train set (x_train, y_train) and the test set (x_test). Use scikit learn to train a random forest and extra trees classifier. And use xgboost and lightgbm to train an extreme boosting model and a light gradient boosting model. Use random_state = 1 for training all models and evaluate on the test set. Answer the following questions:
